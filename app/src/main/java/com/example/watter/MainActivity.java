@@ -36,6 +36,11 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    @NonNull
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 
     private static final String TAG = MainActivity.class.getSimpleName();
     private EditText edMonthly;
